@@ -3,7 +3,7 @@
 ```
 npx create-solana-dapp@latest 
 ```
-project name is solana-dapp-demo,other is default
+The project name is solana-dapp-demo,and the others are default
 
 ## Getting Started
 
@@ -95,8 +95,18 @@ npm run build
 
 #### Deploy to localnet
 
+
 ```shell
-npm run anchor deploy --provider.cluster localnet
+solana-test-validator
+```
+
+```shell
+cd anchor
+avm use 0.30.0
+anchor keys sync
+anchor build
+anchor deploy
+cd ..
 ```
 
 ### web
@@ -111,9 +121,10 @@ Start the web app
 npm run dev
 ```
 
-Build the web app
+To visit http://localhost:3000/ using a web browser.
 
-```shell
-npm run build
-```
+test on localnet picture
+
+![solana-dapp-demo](solana-dapp-demo.jpg )
+
 
