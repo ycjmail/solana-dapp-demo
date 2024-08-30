@@ -1,6 +1,9 @@
 # solana-dapp-demo
 
-This project is generated with the [create-solana-dapp](https://github.com/solana-developers/create-solana-dapp) generator.
+```
+npx create-solana-dapp@latest 
+```
+project name is solana-dapp-demo,other is default
 
 ## Getting Started
 
@@ -13,13 +16,6 @@ This project is generated with the [create-solana-dapp](https://github.com/solan
 - Solana CLI 1.18.9 or higher
 
 ### Installation
-
-#### Clone the repo
-
-```shell
-git clone <repo-url>
-cd <repo-name>
-```
 
 #### Install Dependencies
 
