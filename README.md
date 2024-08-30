@@ -123,7 +123,7 @@ npm run dev
 
 To visit http://localhost:3000/ using a web browser.
 
-test on localnet picture
+test on localnet screenshot
 
 ![solana-dapp-demo](solana-dapp-demo.jpg )
 
